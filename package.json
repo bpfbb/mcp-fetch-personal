@@ -6,7 +6,7 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "tsc",
-		"start": "node dist/index.js",
+		"start": "node dist/index.js --ignore-robots-txt",
 		"dev": "tsc && node dist/index.js",
 		"check": "biome check .",
 		"format": "biome format . --write",
