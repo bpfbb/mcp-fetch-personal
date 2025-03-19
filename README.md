@@ -4,6 +4,31 @@ Model Context Protocol server for fetching web content and processing images. Th
 
 <a href="https://glama.ai/mcp/servers/5mknfdhyrg"><img width="380" height="200" src="https://glama.ai/mcp/servers/5mknfdhyrg/badge" alt="@kazuph/mcp-fetch MCP server" /></a>
 
+## [Updated]
+
+Use `npm` for the package manager.
+
+(Optional) use `npm i typescript -g` to install Typescript globally
+
+Try the following in the `{user}/Library/Application Support/Claude/claude_desktop_config.json`
+```json
+{
+  "mcpServers": {
+    "fetch": {
+      "command": "npm",
+      "args": [
+        "run",
+        "start",
+        "--prefix",
+        "/Users/benjipeng/dev/mcp-server/mcp-fetch-personal"
+      ]
+    }
+  }
+}
+```
+
+
+
 ## Quick Start (For Users)
 
 To use this tool with Claude Desktop, simply add the following to your Claude Desktop configuration (`~/Library/Application Support/Claude/claude_desktop_config.json`):
